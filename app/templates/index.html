@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+
+    <title>AMI - Asistente Virtual</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f7fa;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            width: 400px;
+            max-width: 90%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .chat-header {
+            font-size: 1.8em;
+            color: #06988a;
+            margin-bottom: 10px;
+        }
+
+        .chat-bubble {
+            background-color: #e6f0ff;
+            color: #333;
+            padding: 15px;
+            border-radius: 15px;
+            display: inline-block;
+            max-width: 80%;
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+
+        .bot-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #06988a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.4em;
+            margin: 0 auto 15px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="bot-avatar">F</div>
+        <div class="chat-header">AMI - Tu Asistente Virtual</div>
+        <div class="chat-bubble">{{ message }}</div>
+        <br>
+        <button onclick="window.open('https://wa.me/15551577376?text=Quisiera%20recibir%20las%20notificaciones%20parqueo%20para%20que%20me%20avisen%20cuando%20esté%20por%20finalizar%20mi%20tiempo%20de%20parqueo%3A%0AMi%20placa%20es%3A%20FGG-487%0AEl%20parqueo%20es%3A%20SAN%20MIGUEL%0AHora%20Inicio%3A%2010%3A00%0AHora%20Fin%3A%2011%3A00', '_blank')">
+        Enviar WhatsApp
+        </button>
+    </div>
+</body>
+</html>

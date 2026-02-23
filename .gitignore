@@ -1,0 +1,81 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env                     # <-- Agregar esta línea
+.env.local
+.env.production# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de entorno
+.env
+*.env
+
+# Configuración de herramientas
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de bases de datos
+*.sqlite3
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de distribución y build
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.cache/
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Test output
+test-results/
+
+# Otros
+logs/
